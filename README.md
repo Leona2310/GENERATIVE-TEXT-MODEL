@@ -25,3 +25,8 @@ Once the text is generated, the script prints the result clearly on the screen u
 
 # OUTPUT 
 
+<img width="477" height="31" alt="Image" src="https://github.com/user-attachments/assets/684ebe63-1793-4913-bf5f-16f8b2372cfc" />
+
+<img width="1100" height="205" alt="Image" src="https://github.com/user-attachments/assets/7ebd1e4d-b9cc-444e-b301-ea200b3172b4" />
+
+<img width="1542" height="852" alt="Image" src="https://github.com/user-attachments/assets/95950da8-662e-47cb-a633-dafeb787a091" />

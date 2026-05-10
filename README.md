@@ -1,20 +1,5 @@
 # GENERATIVE-TEXT-MODEL
 
-COMPANY : CODTECH IT SOLUTIONS
-
-NAME : LEONA MENDES
-
-INTERN ID : CT04DR1252
-
-DOMAIN NAME : ARTIFICIAL INTELLIGENCE
-
-DURATION : 4 WEEKS 
-
-MENTOR : NEELA SANTOSH
-
-
-# TASK 4 — GENERATIVE-TEXT-MODEL
-
 The fourth task was focused on generative text modeling, where the main aim was to build a system that can automatically generate meaningful and coherent text based on any topic the user provides. For this task, you implemented a text generator using the popular GPT-2 model from the Hugging Face Transformers library. GPT-2 is a large pre-trained language model designed by OpenAI, known for its ability to understand language patterns and produce fluent and human-like sentences. Your script begins by importing the necessary tools from the transformers package, specifically the pipeline function and the set_seed utility. The pipeline function makes it incredibly simple to load a pre-trained model and set up a fully working text generation system in just one line of code. By specifying "text-generation" as the task and "gpt2" as the model, the pipeline initializes GPT-2 and loads all its learned language capabilities so that it can generate high-quality outputs without needing additional training.
 
 After loading the model, your program takes an input prompt from the user. This prompt acts as the seed idea or starting sentence for the AI to build upon. Because GPT-2 generates text by predicting one word at a time based on the previous words, the initial prompt influences the flow, tone, and meaning of the generated paragraph. Next, the script sets a random seed using set_seed(42) to ensure that the output remains consistent every time the code is run with the same prompt. This is important because generative models often produce slightly different results on each run. Setting the seed ensures reproducibility, especially useful when experimenting or demonstrating how the model behaves.
